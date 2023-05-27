@@ -1,6 +1,6 @@
 import "@/styles/globals.css"
 import { Metadata } from "next"
-
+import { Icons } from "@/components/icons"
 import { siteConfig } from "@/config/site"
 import { fontSans } from "@/lib/fonts"
 import { cn } from "@/lib/utils"
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     { media: "(prefers-color-scheme: dark)", color: "black" },
   ],
   icons: {
-    icon: "/favicon.ico",
+    icon: "/play-circle.png",
     shortcut: "/favicon-16x16.png",
     apple: "/apple-touch-icon.png",
   },

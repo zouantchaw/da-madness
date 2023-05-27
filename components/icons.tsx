@@ -4,6 +4,7 @@ import {
   SunMedium,
   Twitter,
   Instagram,
+  PlayCircle,
   type Icon as LucideIcon,
 } from "lucide-react"
 
@@ -14,6 +15,7 @@ export const Icons = {
   moon: Moon,
   twitter: Twitter,
   instagram: Instagram,
+  play: PlayCircle,
   logo: (props: LucideProps) => (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
       <path
